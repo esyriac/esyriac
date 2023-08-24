@@ -5,9 +5,9 @@ This is a python script that takes a parquet file as input and generates either 
 This is written in python using pandas API.
 
 It needs a Python environent to run the script and below packages should be installed - 
-pip install pandas
-pip install pyarrow
-pip install xlsxwriter
+-- pip install pandas
+-- pip install pyarrow
+-- pip install xlsxwriter
 
 Command usage - python convert-parquet.py <source-filename> <output-format>
 The output-format is optional and default output is csv.
